@@ -1,0 +1,65 @@
+:root {
+    --text: #00000;
+    --bg: #ffffff;
+    --btn-bg: #d7f171;
+  }
+  h4 {
+    color: var(--text);
+    background-color: var(--bg);
+  }
+ 
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    color: var(--text);
+    background-color: var(--bg);
+    font-family: 'Nerko One', cursive;
+  }
+  h1 {
+    font-size: 29px;
+    color: orange;
+    margin-bottom: 0;
+    
+  }
+  .container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #board {
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100px;
+    margin-top: 40px;
+  }
+  .btn {
+      background-color: transparent;
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+    font-size: x-large;
+  }
+  #restart {
+    padding: 10px 20px;
+    background-color: transparent;
+    border:  4px dotted blue;;
+    border-radius: 20px;
+    color: var(--bg);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: black;
+  }
+  
